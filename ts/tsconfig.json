@@ -1,0 +1,32 @@
+{
+    "version": "1.5.0-alpha",
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "jsx": "react",
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": false,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true
+    },
+    "filesGlob": [
+        "./**/*.ts",
+        "./**/*.tsx",
+        "!./node_modules/**/*"
+    ],
+    "files": [
+        "./animation.ts",
+        "./audio.ts",
+        "./color.ts",
+        "./controls.ts",
+        "./entity.ts",
+        "./fsc.ts",
+        "./sprite.ts",
+        "./vector2.ts"
+    ],
+    "atom": {
+        "rewriteTsconfig": true
+    }
+}
